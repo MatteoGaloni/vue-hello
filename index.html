@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TEST VUE</title>
+    <script src="https://unpkg.com/vue@3"></script>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+    <div id="app">
+        <div id="container" v-bind:class="coloreSfondo">
+            <h1 v-bind:class="coloreTesto">Test VueJs di {{nome}} {{cognome}}</h1>
+            <div class="box">
+                <input v-model="coloreSfondo" placeholder="Scegli se rosa giallo o blu">
+                <button @click="btn">Torna allo sfondo bianco</button>
+                <button @click="aggiungiSrc">Genera foto</button>
+            </div>
+            <img class="img" :src="immagine">
+
+        </div>
+    </div>
+
+    <script src="./js/main.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,46 @@
+button,
+input {
+    padding: 1rem;
+    background-color: rgba(21, 21, 19, 0.219);
+    border-radius: 8px;
+    text-align: center;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+}
+
+/* *************ID*************************  */
+#container {
+    min-height: 600px;
+
+}
+
+/* **********Classi****************  */
+.rosso {
+    color: darkred;
+}
+
+.blu {
+    background-color: teal;
+}
+
+.rosa {
+    background-color: pink;
+}
+
+.giallo {
+    background-color: yellow;
+}
+
+.img {
+    width: 300px;
+    margin-left: 40%;
+    padding: 1rem;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+}
